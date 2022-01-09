@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ №5 Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu"><a href="index.html">Главная</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+
+        <div class="conttop__text">
+            <h2 class="sec">Contact Us</h2>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, ratione!</p>
+        </div>
+
+
+        <div class="contacts">
+            <div class="contus">
+                <img src="image/image2.png" alt="Изображение голубоглазого котика" width="350">
+                <!-- Наверняка котики у всех в первом проекте :D -->
+                <h4 class="head4">Address</h4>
+                <p class="text"> Anytown</p>
+                <h4 class="head4">Phone</h4>
+                <ol>
+                    <li>+7 495 000-00-01</li>
+                    <li>+7 495 000-00-02</li>
+                </ol>
+                <h4 class="head4">Online service</h4>
+                <a href="index.html#tel" target="_blank">E-mail</a>
+                <a href="index.html#emal" target="_blank">Телефон</a>
+            </div>
+            <!-- Совместил относительную ссылку с якорем, т.к. в задании не очевидно указано, что мы должны сделать:
+"Список из 2х ссылок на сайт и почту (произвольный адрес и номер телефона)". То есть я сделал ссылки на почту и телефон на главной странице. -->
+            <div class="sendus">
+                <h4 class="head4">Send us</h4>
+                <form action="#">Full Name <input class="vvod" type="text" placeholder="Ваше Полное Имя"><br>
+                    Email <input class="vvod" type="email" placeholder="Ваш Email"><br>
+                    Message <textarea class="vvod" cols="15" rows="3"></textarea><br>
+                    <!-- Почему-то окно ввода текста имеет возможность изменения размеров в Мазиле -->
+                    <button class="knop" type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8d534e3222ba2ca87c19009a684f87c9a99acd91326ab8cdc5a65bdfd223fa6&amp;width=1140&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+        <!-- Начало Копии с подвальной частью с главной страницы -->
+
+        <div class="end container">
+            <div class="end__context">
+                <div class="end__text">
+                    <div class="footer__header">
+                        <h3 class="head3">И снова h3 :)</h3>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat provident...</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Конец ДЗ из первого урока -->
+
+            <div class="podval">
+                <ul class="list">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li id="tel">+7 495 000-00-00</li>
+                    <li id="emal">mail@gmail.com</li>
+                </ul>
+                <div class="rights">
+                    <p class="text">&copy; Все права защищены.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
